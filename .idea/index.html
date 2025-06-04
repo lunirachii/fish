@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登入拉蓓會員</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="navbar">
+    <div class="back-arrow" onclick="history.back()">←</div>
+    登入拉蓓會員
+
+</div>
+
+<div class="login-container">
+    <button class="login-btn facebook">
+        <img src="螢幕擷取畫面 2025-06-05 042052.png" class="icon" alt="fb"> 以 Facebook 帳 號 繼 續
+    </button>
+    <button class="login-btn line">
+        <img src="螢幕擷取畫面 2025-06-05 042059.png" class="icon" alt="line"> 與 LINE 連動
+    </button>
+
+    <div class="divider">或</div>
+
+    <form id="loginForm">
+        <div class="input-group">
+            <label for="username"><span class="required-star">*</span> 帳號</label>
+            <input type="text" id="username" name="username" placeholder="e-mail" required>
+        </div>
+        <div class="input-group">
+            <label for="password"><span class="required-star">*</span> 密碼</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit" class="submit-btn">登入</button>
+    </form>
+
+    <div class="extra-links1">
+        <p><a href="#">忘記密碼？</a></p>
+    </div>
+    <div class="extra-links2">
+        <p><a href="#">還不是會員？點我登入</a></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
