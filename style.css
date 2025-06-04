@@ -112,9 +112,6 @@ body {
     cursor: pointer;
 }
 
-.submit-btn i {
-    margin-left: 8px;
-}
 
 .required-star {
     color: red;
